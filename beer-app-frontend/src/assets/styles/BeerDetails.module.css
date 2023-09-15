@@ -1,0 +1,71 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 91vh;
+    background-color: #E6D5B8;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 60%;
+    margin: 10px;
+}
+.image{
+    height: 100%;
+}
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 70%;
+    background-color: #F0A500;
+    color: #1B1A17;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.beerName{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+.info{
+    font-size: 1.4rem;
+}
+.buttonContainer{
+    display: flex;
+    width: 80%;
+}
+.button {
+    border: none;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1B1A17;
+    color: #E6D5B8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    margin: 10px;
+    flex-grow: 1;
+    
+}
+.button:hover {
+    background-color: #E45826;
+    color: #1B1A17;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.button:focus {
+    outline: none;
+}
+.button:active {
+    background-color: #1B1A17;
+    color: #E6D5B8;
+}

@@ -1,0 +1,60 @@
+.mainContainer{
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6D5B8;
+}
+.imageContainer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 85%;
+    height: auto
+}
+.text{
+    text-transform: uppercase;
+}
+.info{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #1B1A17;
+}
+.information{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.button {
+    width: 30%;
+    border: none;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1B1A17;
+    color: #E6D5B8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    margin: 10px;
+}
+.button:hover {
+    background-color: #E45826;
+    color: #1B1A17;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.button:focus {
+    outline: none;
+}
+.button:active {
+    background-color: #1B1A17;
+    color: #E6D5B8;
+}

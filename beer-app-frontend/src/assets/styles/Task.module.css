@@ -1,0 +1,14 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6D5B8;
+    height: 100vh;
+}
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}

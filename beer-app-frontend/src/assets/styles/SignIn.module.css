@@ -1,0 +1,77 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E6D5B8;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 80%;
+    width: 80%;
+}
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    background-color: #F0A500;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.input {
+    border: none;
+    margin: 10px;
+    padding: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #E6D5B8;
+    font-family: 'Montserrat', sans-serif;
+}
+.input:focus {
+    outline: none;
+}
+.button {
+    border: none;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1B1A17;
+    color: #E6D5B8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    margin: 10px;
+}
+.button:hover {
+    background-color: #E6D5B8;
+    color: #1B1A17;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.button:focus {
+    outline: none;
+}
+.button:active {
+    background-color: #1B1A17;
+    color: #E6D5B8;
+}
+.imageContainer {
+    height: 100%;
+}
+.image {
+    width: inherit;
+    height: inherit;
+}
+.errors {
+    font-size: 11px;
+    font-weight: bold;
+}

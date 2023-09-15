@@ -1,0 +1,83 @@
+    .mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E6D5B8;
+    height: 91vh;
+}
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.itemContainer{
+    width: 12rem;
+    height: 16rem;
+    margin: 1rem 1.5rem;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #1B1A17;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    bottom: 100%;
+}
+.itemContainer:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+.info{
+    color: #F0A500;
+    font-size: 16px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    top: 20%;
+    pointer-events: none;
+}
+.image{
+    height: 85%;
+    width: 100%;
+    display: block;
+}
+.name{
+    text-transform: uppercase;
+    margin: 0;
+}
+.paginateContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    font-weight: bold;
+    margin: 0;
+    bottom: 20px;
+}
+.paginatePage{
+    list-style-type: none;
+    cursor: pointer;
+}
+.paginatePageLink{
+    padding: 10px;
+}
+.paginatePrevious,.paginateNext{
+    list-style-type: none;
+    cursor: pointer;
+}
+.paginatePrevious:hover,
+.paginateNext:hover,
+.paginatePage:hover {
+    color: #E45826;
+}
+.paginateActivePage{
+    background-color: #F0A500;
+}
